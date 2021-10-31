@@ -1,8 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../../images/banner/banner1.jpg';
-import banner2 from '../../../images/banner/banner2.jpg';
-import banner3 from '../../../images/banner/banner3.jpg';
 
 const Banner = () => {
     return (
@@ -11,36 +8,36 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner1}
+                        src="https://i.ibb.co/zHzP6BY/s-m-ibrahim-1-NEJki-TTu-LU-unsplash.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Safe travel for you family</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner2}
+                        src="https://i.ibb.co/mHNsM9p/adam-kool-nd-N00-Kmb-J1c-unsplash.jpg"
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
+                        <h3>Safe travel for your friends </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner3}
+                        src="https://i.ibb.co/wysMS4c/bruno-abatti-m-Ef-Ih-OTH27w-unsplash.jpg"
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>World tour travel agent</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

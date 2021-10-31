@@ -1,0 +1,20 @@
+.conatc-container{
+    background-color: #6a7d8e5c;
+    padding: 5vh 0;
+}
+.conatc-container h2{
+    margin: 10vh;
+}
+.conact-form {
+    width: 70%;
+    margin: auto;
+}
+.contact-btn{
+    background-color: #0dcaf0;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+}

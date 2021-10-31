@@ -1,0 +1,8 @@
+.about-container{
+    display: flex;
+    padding: 10vh 5ch;
+}
+.about-sec-1{
+    margin-right: 10px;
+    padding: 5px 25px;
+}
